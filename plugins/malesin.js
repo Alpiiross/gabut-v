@@ -7,14 +7,14 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `Maafin aku ♡`,
-      url: 'https://www.geocities.ws/mrrwith/Ayang.html'
+      url: 'https://instagram.com/oscarbotz_'
     }
   }],
   footer: 'Ututu cayangnya aku 😍'
 })
 }, 15000)
 setTimeout(() => {
-conn.reply(m.chat, 'Janji jangan marah sama Aine iya.. 😕', m)
+conn.reply(m.chat, 'Janji jangan marah sama Jarot iya.. 😕', m)
 }, 10000)
 setTimeout(() => {
 conn.reply(m.chat, 'Tapi kamu jangan marah iya.. 🥺', m)
