@@ -170,7 +170,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ['Sewa Bot🌟', '/sewa'],
       ['Owner🌟', '/owner']
     ], m)*/
-    let url = `https://telegra.ph/file/6ce23378b848253e571e8.jpg`.trim()
+    let url = `https://telegra.ph/file/6e45e51fc8c64c0057c3e.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -179,7 +179,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'                『 JAROT OFC 』',
+                            hydratedFooterText:'                『 YUNI OFC 』',
                             hydratedButtons: [{
                               urlButton: {
                                     displayText: 'GROUP',
