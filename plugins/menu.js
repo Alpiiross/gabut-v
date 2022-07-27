@@ -170,7 +170,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ['Sewa Bot🌟', '/sewa'],
       ['Owner🌟', '/owner']
     ], m)*/
-    let url = `https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg`.trim()
+    let url = `https://telegra.ph/file/6ce23378b848253e571e8.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
